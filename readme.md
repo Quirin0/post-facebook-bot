@@ -20,6 +20,15 @@ No arquivo **app.js** modificar as seguintes linhas de código:
  await page.type('#pass', 'YOUR PASSWORD'); // here you put your password
 ```
 
+e adicionar as frases que deseja que sejam postadas:
+
+```javascript
+ let sentenceList = [
+    `Adicione a frase aqui`,
+    `Adicione outra frase`
+ ];
+```
+
 #### Dependências
 ```bash
 > npm install puppeteer
