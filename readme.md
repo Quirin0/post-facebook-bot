@@ -13,6 +13,13 @@
 > git clone https://github.com/Quirin0/facebook-bot
 ```
 
+No arquivo **app.js** modificar as seguintes linhas de código:
+
+```javascript
+ await page.type('#email', 'YOUR EMAIL HERE'); // here you put your email
+ await page.type('#pass', 'YOUR PASSWORD'); // here you put your password
+```
+
 #### Dependências
 ```bash
 > npm install puppeteer
