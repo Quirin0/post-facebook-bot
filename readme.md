@@ -9,6 +9,10 @@
 #### Como usar
 - Possuir Node JS instalado em sua máquina.
 
+```bash
+> git clone https://github.com/Quirin0/facebook-bot
+```
+
 #### Dependências
 ```bash
 > npm install puppeteer
