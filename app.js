@@ -19,14 +19,13 @@ const puppeteer = require('puppeteer');
         await page.goto('https://www.facebook.com/profile');
         await page.click('body');
         await page.click(`div[class="m9osqain a5q79mjw jm1wdb64 k4urcfbm"] > span`);
-        //await page.click(`div[class="rq0escxv buofh1pr df2bnetk hv4rvrfc dati1w0a l9j0dhe7 k4urcfbm du4w35lb gbhij3x4"] > div > div > div > div > div > div > div > div > div > span > span`);
-        //await page.click(`div[rq0escxv buofh1pr df2bnetk hv4rvrfc dati1w0a l9j0dhe7 k4urcfbm.du4w35lb.gbhij3x4] > div > div > div > div > div > div > div > div > div > span > span`);
-        // type inside create post
-        let sentenceList = [
-            `I will give just about anything if I could make you care, he said. Especially about me.`,
 
-            `This apparent hurly-burly and disorder turn out, after all, to reproduce real life with its fantastic ways more accurately than the most carefully studied out drama of manners. Every man is in himself all humanity, and if he writes what occurs to him he succeeds better than if he copies, with the help of a magnifying glass, objects placed outside of him.`
+        
+        let sentenceList = [
+                `Adicione a frase aqui`,
+                `Adicione outra frase`
         ];
+
 
 
         for (let j = 0; j < sentenceList.length; j++) {
