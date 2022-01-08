@@ -1,5 +1,20 @@
-# Bot que loga e posta no facebook de forma automatica
-- Como usar:<br>
-Tenha instalado em sua maquina o NodeJS<br>
-1. npm install puppeteer<br>
-2. node app.js
+<div align="center">
+<img height="180" src="https://media.discordapp.net/attachments/570478999952687114/929486707026456586/only__1_-removebg-preview.png">
+</div>
+
+##
+
+### Bot para Facebook version 0.1
+
+#### Como usar
+- Possuir Node JS instalado em sua máquina.
+
+#### Dependências
+```bash
+> npm install puppeteer
+```
+
+#### Execução
+```bash
+> node app.js
+```
